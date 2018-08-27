@@ -1,0 +1,51 @@
+{
+  "name": "naf-admin",
+  "version": "1.0.0",
+  "description": "element-ui admin",
+  "author": "dygapp <dygapp@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev2": "nuxt",
+    "build": "nuxt build",
+    "start2": "nuxt build && nuxt start",
+    "dev": "node server/express.js",
+    "start": "cross-env NODE_ENV=production node server/express.js",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue src",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "body-parser": "^1.18.3",
+    "echarts": "^4.1.0",
+    "element-ui": "^2.4.6",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "moment": "^2.22.2",
+    "nuxt-edge": "latest"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-component": "^1.1.1",
+    "babel-polyfill": "^6.26.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
